@@ -1,27 +1,81 @@
-# TodoApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.11.
+```markdown
+# Angular To-Do App
 
-## Development server
+A simple yet powerful To-Do application built with Angular, showcasing key concepts like data binding, event handling, and task filtering.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+---
 
-## Code scaffolding
+## Features
+- Add new tasks
+- Mark tasks as completed
+- Edit tasks inline
+- Delete tasks
+- Filter by: All / Pending / Completed
+- Persistent storage using `localStorage`
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+---
 
-## Build
+## Angular Concepts Used
+This project covers:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. Components – Structuring the app into reusable building blocks.
+2. Interpolation (`{{ }}`) – Displaying dynamic values in the template.
+3. Property Binding (`[property]`) – Binding component data to HTML attributes.
+4. Class Binding (`[class]`) – Applying classes conditionally.
+5. Style Binding (`[style]`) – Applying styles dynamically.
+6. Event Binding (`(event)`) – Handling user actions like clicks and keypresses.
+7. Template Reference Variables (`#var`) – Accessing DOM elements in templates.
+8. Two-Way Binding (`[(ngModel)]`) – Syncing input fields with component data.
+9. `*ngFor` Directive – Looping over tasks to render the list.
+10. `*ngIf` Directive – Conditional rendering of elements.
+11. Getter Properties – Automatically recalculating filtered lists (`filteredTasks`).
+12. LocalStorage – Persisting tasks between page reloads.
 
-## Running unit tests
+---
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Project Structure
+```
 
-## Running end-to-end tests
+src/
+app/
+todo/
+todo.component.ts    # Component logic
+todo.component.html  # Template
+todo.component.css   # Styling
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+````
 
-## Further help
+---
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## How to Run
+```bash
+# Install dependencies
+npm install
+
+# Run the Angular app
+ng serve
+````
+
+Visit: `http://localhost:4200`
+
+---
+
+## Future Improvements
+
+* Add due dates for tasks
+* Drag-and-drop task reordering
+* Dark mode support
+
+---
+
+**Author:** [Your Name](https://github.com/YOUR-USERNAME)
+**License:** MIT
+
+```
+
+---
+
+If you want, I can also include a **GitHub-friendly commit message list** so your pushes look professional when uploading this.  
+Do you want me to prepare that next?
+```
