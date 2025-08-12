@@ -1,7 +1,7 @@
 
 # Angular To-Do App
 
-A simple yet powerful To-Do application built with Angular, showcasing key concepts like data binding, event handling, and task filtering.
+A To-Do application built with Angular, showcasing key concepts like data binding, event handling, and task filtering.
 
 ---
 
